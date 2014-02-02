@@ -1,0 +1,478 @@
+Python 2.7.6 (v2.7.6:3a1db0d2747e, Nov 10 2013, 00:42:54) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+attendees = ['clare', 'jess','fiona']
+>>> people_who_didnt_do_pbj
+
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    people_who_didnt_do_pbj
+NameError: name 'people_who_didnt_do_pbj' is not defined
+>>> people_who_didnt_do_pbj = []
+>>> print attendees [0] # Shannon
+clare
+>>> print attendees [1] #jenn
+jess
+>>> print attendees [2] #grace
+fiona
+>>> print attendees [3] shannon, jenn
+SyntaxError: invalid syntax
+>>> print attendees [0:2]
+['clare', 'jess']
+>>> print len (attendees) # 3
+3
+>>> number_of_attendees = len (attendees)
+>>> print number_of_attendees # 3
+3
+>>> list.append ()
+
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    list.append ()
+TypeError: descriptor 'append' of 'list' object needs an argument
+>>> list.append()
+
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    list.append()
+TypeError: descriptor 'append' of 'list' object needs an argument
+>>> list.append()
+
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    list.append()
+TypeError: descriptor 'append' of 'list' object needs an argument
+>>> attendees_ages = []
+>>> attendees_ages.append(28)
+>>> print attendees_ages # [28]
+[28]
+>>> attendees_ages.append(27)
+>>> attendees_ages = ['27','28','29','30']
+>>> print attendees_ages #
+['27', '28', '29', '30']
+>>> list.append()
+
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    list.append()
+TypeError: descriptor 'append' of 'list' object needs an argument
+>>> print attendees_ages # [28,27]
+['27', '28', '29', '30']
+>>> attendees_ages = [28,27]
+>>> print attendees_ages
+[28, 27]
+>>> print attendees_ages[0]
+28
+>>> attendees_ages[0] = attendees_ages[0] + 1
+>>> print attendees_ages[0]
+29
+>>> print attendees_ages
+[29, 27]
+>>> days_of_week = ['Monday', 'Tuesday']
+>>> dasy_of_week.append ('Wednesday')
+
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    dasy_of_week.append ('Wednesday')
+NameError: name 'dasy_of_week' is not defined
+>>> days_of_week.append ('Wednesday')
+>>> print days_of_week
+['Monday', 'Tuesday', 'Wednesday']
+>>> days_of_week.append ('Thursday')
+>>> print days_of_week
+['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+>>> days_of_week.append('Friday', 'Saturday', 'Sunday')
+
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    days_of_week.append('Friday', 'Saturday', 'Sunday')
+TypeError: append() takes exactly one argument (3 given)
+>>> days_of_week.append('Friday')
+>>> print days_of_week
+['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+>>> print len(days_of_week)
+5
+>>> day = days_of_week.pop(sunday)
+
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    day = days_of_week.pop(sunday)
+NameError: name 'sunday' is not defined
+>>> day = days_of_week.pop()
+>>> print day #
+Friday
+>>> print days_of_week
+['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+>>> print day #1
+Friday
+>>> days.pop
+
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    days.pop
+NameError: name 'days' is not defined
+>>> days.pop()
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    days.pop()
+NameError: name 'days' is not defined
+>>> print day
+Friday
+>>> days.pop()
+
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    days.pop()
+NameError: name 'days' is not defined
+>>> day = days.pop()
+
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    day = days.pop()
+NameError: name 'days' is not defined
+>>> print day
+Friday
+>>> print days
+
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    print days
+NameError: name 'days' is not defined
+>>> print days_of_week
+['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+>>> day = days.of.week.pop()
+
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    day = days.of.week.pop()
+NameError: name 'days' is not defined
+>>> days = days_of_week.pop(1)
+>>> print day #
+Friday
+>>> days = days.pop(0)
+
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    days = days.pop(0)
+AttributeError: 'str' object has no attribute 'pop'
+>>> print days_of_week
+['Monday', 'Wednesday', 'Thursday']
+>>> days = days.pop()
+
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    days = days.pop()
+AttributeError: 'str' object has no attribute 'pop'
+>>> print days
+Tuesday
+>>> months = ['January','February']
+>>> months.extend(['March
+	       
+SyntaxError: EOL while scanning string literal
+>>> months.extend(['March','April','May','June','July','August','September','October','November','December'])
+>>> list.append()
+
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    list.append()
+TypeError: descriptor 'append' of 'list' object needs an argument
+>>> print months
+['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+>>> months.pop(0)
+'January'
+>>> months.insert(0, 'January')
+>>> months.insert('January', 0)
+
+Traceback (most recent call last):
+  File "<pyshell#67>", line 1, in <module>
+    months.insert('January', 0)
+TypeError: an integer is required
+>>> address = "4337 Nebraska Ave NW, Washington, DC 20016"
+>>> address_as_list = address.split(" ")
+>>> address_as_list = address.split(" ")
+>>> addresslist = address.split(" ")
+>>> print addresslist
+['4337', 'Nebraska', 'Ave', 'NW,', 'Washington,', 'DC', '20016']
+>>> name = raw_input("What is your name? ")
+What is your name? 
+>>> What is your name? Clarissa
+SyntaxError: invalid syntax
+>>> print name
+
+>>> name = raw_input ("What is your address?')
+		  
+SyntaxError: EOL while scanning string literal
+>>> address = raw_input("What is your address? ")
+What is your address? print address
+>>> address = raw_input ("What is your address? ") What is your address? Clarissa
+SyntaxError: invalid syntax
+>>> address = raw_input ("What is your address?")
+What is your address? 340 becker st
+>>> print address
+ 340 becker st
+>>> 'ann' in 'Shannon' # True
+True
+>>> 'Franky' in 'Shannon' #True
+False
+>>> address = raw input ("1234 bleaker st nw
+		     
+SyntaxError: invalid syntax
+>>> address = raw_input ("What is your address?")
+What is your address? 1234 Bleaker St NW, Washington DC, 20010
+>>> print address
+ 1234 Bleaker St NW, Washington DC, 20010
+>>> range from 0 to range (3) # [0,1,2,3]
+SyntaxError: invalid syntax
+>>> range (start, stop)
+
+Traceback (most recent call last):
+  File "<pyshell#87>", line 1, in <module>
+    range (start, stop)
+NameError: name 'start' is not defined
+>>> range (nw)
+
+Traceback (most recent call last):
+  File "<pyshell#88>", line 1, in <module>
+    range (nw)
+NameError: name 'nw' is not defined
+>>> print range
+<built-in function range>
+>>> range = raw_input ("range'
+		   
+SyntaxError: EOL while scanning string literal
+>>> range = raw_input ("Range')
+		   
+SyntaxError: EOL while scanning string literal
+>>> range = raw_input ("range")
+range NW
+>>> print range
+ NW
+>>> print address
+ 1234 Bleaker St NW, Washington DC, 20010
+>>> 
+>>> ne_adds = []
+nw_adds = []
+se_adds = []
+sw_adds = []
+
+address = raw_input("What is your address? ")
+
+address = address.split(" ")
+>>> 
+>>> if 'NW' in address.upper()
+SyntaxError: invalid syntax
+>>> ne_adds = []
+nw_adds = []
+se_adds = []
+sw_adds = []
+
+address = raw_input("What is your address? ")
+
+address = address.split(" ")
+>>> 
+>>> ne_adds = []
+nw_adds = []
+se_adds = []
+sw_adds = []
+
+address = raw_input("What is your address? ")
+address = address.upper()
+
+>>> if 'NW' in adddress.split(" "):
+	nw_address.append(address)
+orint address
+SyntaxError: invalid syntax
+>>> 
+>>> if 'NE' in address.split(" "):
+	if 'SE' in address.split("
+				 
+SyntaxError: EOL while scanning string literal
+>>> range from 0 to range (5)
+SyntaxError: invalid syntax
+>>> for number in range (10): 
+	print number
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#109>", line 1, in <module>
+    for number in range (10):
+TypeError: 'str' object is not callable
+>>> for number in range (10):
+	print number
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#112>", line 1, in <module>
+    for number in range (10):
+TypeError: 'str' object is not callable
+>>> days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+for days_of_week: 
+	print day
+
+	
+SyntaxError: invalid syntax
+>>> days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+for days_of_week: 
+	print day
+
+	
+SyntaxError: invalid syntax
+>>> 
+>>> days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+for days_of_week: 
+	print day
+	
+
+	
+>>> for week in range (1, 5) :
+	print "Week {0}".format(week)
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#119>", line 1, in <module>
+    for week in range (1, 5) :
+TypeError: 'str' object is not callable
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+>>> for days of week:
+	
+SyntaxError: invalid syntax
+>>> for days_of_week: print
+SyntaxError: invalid syntax
+>>> for days_of_week:
+	
+SyntaxError: invalid syntax
+>>> 
+>>> for days_of_week:
+	
+SyntaxError: invalid syntax
+>>> for day in range(1, 5):
+	print "day {0
+	
+SyntaxError: EOL while scanning string literal
+>>> print "day" {0}".format(week)
+SyntaxError: invalid syntax
+>>> months_in_year = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+print months_in_year
+
+>>> print months
+['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+>>> for month in months_in_year
+SyntaxError: invalid syntax
+>>> print month
+
+Traceback (most recent call last):
+  File "<pyshell#138>", line 1, in <module>
+    print month
+NameError: name 'month' is not defined
+>>> print month
+
+Traceback (most recent call last):
+  File "<pyshell#139>", line 1, in <module>
+    print month
+NameError: name 'month' is not defined
+>>> print months_in_year
+['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+>>> print months
+['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+>>> print months
+['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+>>> print months_in_year
+['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+>>> for month in range(1, 5)
+SyntaxError: invalid syntax
+>>> for month in range(1, 3):
+	print "Month {1}" .format(month)
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#147>", line 1, in <module>
+    for month in range(1, 3):
+TypeError: 'str' object is not callable
+>>> print month
+
+Traceback (most recent call last):
+  File "<pyshell#148>", line 1, in <module>
+    print month
+NameError: name 'month' is not defined
+>>> print months
+['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+>>> print months_in_year
+['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+>>> for month in months_in_year:
+	print month
+
+	
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+>>> for month in range(1, 5):
+	print "month {0}" .format(month)
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#156>", line 1, in <module>
+    for month in range(1, 5):
+TypeError: 'str' object is not callable
+>>> print month
+Jun
+>>> print (3)
+3
+>>> print "month {1}" .format(month)
+
+Traceback (most recent call last):
+  File "<pyshell#159>", line 1, in <module>
+    print "month {1}" .format(month)
+IndexError: tuple index out of range
+>>> 
+>>> days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+# for day in days: 
+
+for index, day in enumerate(days):
+	print "{0} is day # {1}". format(day, index)
+
+	
+>>> 
+>>> print day
+Friday
+>>> print days
+['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+>>> print 1
+1
+>>> print day 1
+SyntaxError: invalid syntax
+>>> 
+>>> days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+# for day in days: 
+
+for index, day in enumerate(days):
+	print "{0} is day # {1}". format(day, index+1)
+
+	
+>>> 
+>>> print day
+Friday
+>>> print day
+Friday
+>>> 
+>>> python enumerate.py
+SyntaxError: invalid syntax
+>>> 
